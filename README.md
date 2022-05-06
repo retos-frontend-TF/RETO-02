@@ -1,21 +1,22 @@
-# Plantilla FrontEnd con SASS
-##### Plantilla Básica para poder empezar casi cualquier proyecto en **FrontEnd**.
+# RETO 02 <💪🏻>
+##### ℹ️ Directrices para conseguir el reto:
 
 ~~~
-Metodología de carpetas en FrontEnd
-Estructura en imágenes (svg, jpg, iconos, etc)
-Readme, licencia MIT, gitignore
-Fuentes externas al OS
-Semiestructuras en código
-Comentarios introductorios
-PreCompilador SASS
+🔴 Solo Html y Sass
+🔴 Para Desktop
+🔴 Utilización de BEM, Bucles y Variables
+🔴 GitHub Page, para ver el reto finalizado.
 ~~~
 
-> Este contenido se ha creado para mís alumnos, que se inician en el maravilloso mundo de la programación.
+> Se pueden seguir los RETOS en mí cuenta de Twitter @ToniFerra
 
 
 ---
-###### _Copyright 2020 - Toni Ferra_
 
-# Plantilla_SASS_2022# plantilla_SASS_2022
-# plantilla_retos
+![](https://cln.sh/EjKS5O)
+
+---
+
+###### _Copyright 2022 - Toni Ferra_
+
+# Reto_02_frontend
