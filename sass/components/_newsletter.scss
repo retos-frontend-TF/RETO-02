@@ -2,21 +2,25 @@
 // @Newsletter: newsletter
 // **************************************
 
-// Dimensiones
-$newsletter-width: 70vw;
-$newsletter-height: 50vh;
+// Newsletter minimalista
+// **********************
 
-// Posiciones
 body{
+    // tipografía
     font-family: $font-base;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    // tamaño altura
     height: 100vh;
+
     // Flex
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+// Zona externa de la newsletter
 .contenedor {
+    // tamaño del contenedor, respecto al navegador
     width: $newsletter-width;
     height: $newsletter-height;
 
@@ -25,51 +29,62 @@ body{
         color: $color-texto;
     }
 
-    
+    // Newsletter
     .newsletter{
+        // igualando altura con el contenedor, para que el background cubra toda la superficie del contenedor
         height: 100%;
         background: linear-gradient(to bottom, $color-degradado1, $color-degradado2);
+
         color: $color-texto-newsletter;
+
         // Flex
+        // centrar la newsletter dentro del contenedor
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        &__titulo{
-            width: 70%;
+        &__titulo, &__form{
+            // que va ha ocupar la newsletter dentro del contenedor
+            width: 80%;
         }
         &__form{
-            width: 70%;
+            // ajustando el input y el button, uno a cada lado
             display: flex;
             justify-content: space-between;
 
+            // parámetros genéricos del input y el button
             &--input, &--btn{
+                // texto y líneas
                 color: $color-texto-newsletter;
                 background: transparent;
                 border-top: 1px solid white;
                 border-bottom: 1px solid white;
                 padding: 0.5em;
+                // Separación del texto para el usuario
                 margin-top: 1rem;
             }
             &--input{
+                // líneas del input
                 border-left: 1px solid white;
                 border-right: 0;
-                border-top-left-radius: 8px;
-                border-bottom-left-radius: 8px;
-                
+                border-top-left-radius: $border-radius-inputs;
+                border-bottom-left-radius: $border-radius-inputs;
+                // ocupar el tamaño sobrante
                 flex-grow: 1;
+                // ajustes del placeholder del input
                 &::placeholder{
                     color: $color-texto-newsletter;
                     font-weight: lighter;
                 }
             }
             &--btn{
+                // líneas del button
                 border-right: 1px solid white;
                 border-left: 0;
-                border-top-right-radius: 8px;
-                border-bottom-right-radius: 8px;
-
+                border-top-right-radius: $border-radius-inputs;
+                border-bottom-right-radius: $border-radius-inputs;
+                // forma del mouse
                 cursor: pointer;
             }
         }

@@ -354,7 +354,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,7 +369,7 @@ body {
 
 .contenedor {
   width: 70vw;
-  height: 50vh;
+  height: 30vh;
 }
 .contenedor .titulo {
   text-align: center;
@@ -394,11 +394,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.contenedor .newsletter__titulo {
-  width: 70%;
+.contenedor .newsletter__titulo, .contenedor .newsletter__form {
+  width: 80%;
 }
 .contenedor .newsletter__form {
-  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
