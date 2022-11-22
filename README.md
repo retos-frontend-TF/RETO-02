@@ -2,7 +2,7 @@
 ##### ℹ️ Directrices para conseguir el reto:
 
 ~~~
-🔴 Solo Html y Sass
+🔴 Solo Html y Sass 
 🔴 Para Desktop
 🔴 Utilización de BEM, Bucles y Variables
 🔴 GitHub Page, para ver el reto finalizado.
